@@ -7,7 +7,8 @@ import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
- * Created by Cory on 4/29/2017.
+ * @author cskowron@moxiegroup.com (Cory Skowronek)
+ * @since  1.0.0
  */
 public class CommonUtils {
 

@@ -2,10 +2,12 @@ package beans;
 
 import beans.enums.Type;
 
+import java.time.temporal.WeekFields;
 import java.util.Calendar;
 
 /**
- * Created by Cory on 4/22/2017.
+ * @author cskowron@moxiegroup.com (Cory Skowronek)
+ * @since  1.0.0
  */
 public class Content {
 
@@ -13,7 +15,7 @@ public class Content {
     private Type type;
     private String title;
     private String caption;
-    private Calendar weekOfSeason;
+    private Week weekOfSeason;
     private Image originalImage;
     private Image thumbnailImage;
     private Calendar createdDate;

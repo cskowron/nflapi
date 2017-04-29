@@ -1,7 +1,8 @@
 package beans.base;
 
 /**
- * Created by Cory on 4/22/2017.
+ * @author cskowron@moxiegroup.com (Cory Skowronek)
+ * @since  1.0.0
  */
 public abstract class BaseStats {
 

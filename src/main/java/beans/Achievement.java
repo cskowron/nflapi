@@ -4,7 +4,8 @@ import beans.base.BaseModel;
 import beans.enums.Type;
 
 /**
- * Created by Cory on 4/22/2017.
+ * @author cskowron@moxiegroup.com (Cory Skowronek)
+ * @since  1.0.0
  */
 public class Achievement {
 

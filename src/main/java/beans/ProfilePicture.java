@@ -5,9 +5,10 @@ import beans.enums.Type;
 import java.util.Calendar;
 
 /**
- * Created by Cory on 4/29/2017.
+ * @author cskowron@moxiegroup.com (Cory Skowronek)
+ * @since  1.0.0
  */
-public class ProfilePicture extends Base{
+public class ProfilePicture {
 
     private Type type;
     private Calendar lastMoidifiadDate;

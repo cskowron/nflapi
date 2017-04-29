@@ -8,15 +8,12 @@ import java.util.Calendar;
  * @author cskowron@moxiegroup.com (Cory Skowronek)
  * @since  1.0.0
  */
-public class Conference {
+public class HighSchool {
 
     private String id;
     private Type type;
     private Calendar lastModifiedDate;
-    private int season;
-    private String abbr;
-    private String nickName;
-    private String fullName;
+    private String name;
 
     public String getId() {
         return id;
@@ -42,35 +39,11 @@ public class Conference {
         this.lastModifiedDate = lastModifiedDate;
     }
 
-    public int getSeason() {
-        return season;
+    public String getName() {
+        return name;
     }
 
-    public void setSeason(int season) {
-        this.season = season;
-    }
-
-    public String getAbbr() {
-        return abbr;
-    }
-
-    public void setAbbr(String abbr) {
-        this.abbr = abbr;
-    }
-
-    public String getNickName() {
-        return nickName;
-    }
-
-    public void setNickName(String nickName) {
-        this.nickName = nickName;
-    }
-
-    public String getFullName() {
-        return fullName;
-    }
-
-    public void setFullName(String fullName) {
-        this.fullName = fullName;
+    public void setName(String name) {
+        this.name = name;
     }
 }
