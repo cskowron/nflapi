@@ -12,6 +12,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  */
 public class CommonUtils {
 
+    public static final String DATE_FORMAT = "yyyy-MM-dd:hh:mm:ssss";
+
     /**
      * Convenience method for setting up the Jackson object mapper and de-serializing a JSON object into a bean.
      *
